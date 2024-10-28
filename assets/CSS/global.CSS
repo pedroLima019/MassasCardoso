@@ -16,6 +16,10 @@
   --color-4: #000000;
 }
 
+body {
+  background: var(--color-1);
+}
+
 header {
   width: 100%;
   background-color: var(--color-1);
@@ -117,28 +121,94 @@ a {
   justify-content: center;
   align-items: center;
   padding: 4rem;
+  background: var(--color-1);
 }
 
 .about-text {
-   width: 50%;
-   margin: 0 2rem;
+  width: 50%;
+  margin: 0 2rem;
 }
 
 .about-text h1 {
-   font-size: 40px;
-   margin: 0px 0px 20px 0px;
+  font-size: 40px;
+  margin: 0px 0px 20px 0px;
 }
 
-.about-text p{
-   font-weight: 300;
-   margin: 15px 0px;
+.about-text p {
+  font-weight: 300;
+  margin: 15px 0px;
 }
 
-.about-image{
-   width: 50%;
-   margin: 0 2rem;
+.about-image {
+  width: 50%;
+  margin: 0 2rem;
 }
 
-.about-image img{
-   width: 100%;
+.about-image img {
+  width: 100%;
+}
+
+.services-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  background: var(--color-2);
+  border-radius: 500px 0px 500px 0px;
+  box-shadow: inset 10px 5px 50px 10px #00000021;
+}
+
+.services-container h2 {
+  text-align: center;
+  color: var(--color-1);
+  font-size: 40px;
+  font-weight: 600;
+  padding: 0.5rem;
+  border-bottom: 1px solid var(--color-1);
+}
+
+.card-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem;
+}
+
+.card-services {
+  width: 250px;
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0 3rem;
+  padding: 1.5rem;
+  background: #ffff;
+  border-radius: 10px;
+  box-shadow: 20px 30px 25px 0px #0000002f;
+}
+
+.card-services img {
+  width: 50px;
+  margin: 10px 0;
+}
+
+.card-services h3 {
+  font-size: 20px;
+}
+
+.card-services p {
+  font-size: 10px;
+  margin: 12px 0;
+}
+
+.card-services a {
+  font-size: 12px;
+  padding: 0.3rem;
+  border-radius: 5px;
+  width: 200px;
+  background: var(--color-3);
 }

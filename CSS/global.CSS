@@ -231,3 +231,82 @@ a {
   font-style: italic;
   font-weight: 200;
 }
+
+.products-container {
+  width: 100%;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.products-container h2 {
+  text-align: center;
+  color: var(--color-2);
+  font-size: 40px;
+  font-weight: 600;
+  padding: 0.5rem;
+  border-bottom: 1px solid var(--color-2);
+}
+
+.cards-container {
+  width: 100%;
+  padding: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards-container,
+.slick-slide {
+  display: flex;
+  justify-content: center;
+  margin: 0 20px;
+  padding: 2rem;
+}
+
+
+.cards-products,
+.slick-slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 0px;
+  background: #ffff;
+  border-radius: 10px;
+}
+
+.cards-products img {
+  width: 100%;
+  height: 250px;
+  border-radius: 10px 10px 0px 0px;
+  margin-bottom: 10px;
+}
+
+.cards-products h3 {
+  font-size: 20px;
+  color: var(--color-2);
+}
+
+.cards-products p {
+  font-size: 12px;
+  padding: 20px;
+}
+
+.cards-products a {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  font-size: 12px;
+  padding: 0.3rem;
+  border-radius: 5px;
+  display: block;
+  background: var(--color-2);
+  transition: 0.3s ease-in-out;
+}
+
+.cards-products a:hover {
+  background-color: #078a40;
+}

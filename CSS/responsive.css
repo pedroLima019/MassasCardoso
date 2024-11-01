@@ -51,6 +51,7 @@
 
   .card-content {
     flex-direction: column;
+    padding: 2rem;
   }
 
   .card-services {
@@ -64,12 +65,20 @@
   }
 
   .card-services p {
-    font-size: 12px;
+    font-size: 15px;
     margin: 15px 0;
+  }
+
+  .card-services a {
+    font-size: 15px;
   }
 
   .bg-container p {
     font-size: 30px;
+  }
+
+  .products-container h2 {
+    width: 100%;
   }
 }
 
@@ -114,12 +123,15 @@
   .about-text p {
     font-size: 14px;
   }
-
+ 
+  .services-container{
+     padding: 1rem;
+  }
   .services-container h2 {
     font-size: 30px;
   }
 
-  .card-content {
+  .card-container {
     padding: 0;
   }
 
@@ -133,7 +145,12 @@
   }
 
   .card-services p {
-    margin: 15px 0;
+    font-size: 12px;
+    margin: 12px 0;
+  }
+
+  .card-services a {
+    font-size: 12px;
   }
 
   .bg-container {
@@ -143,6 +160,14 @@
 
   .bg-container p {
     font-size: 20px;
+  }
+
+  .products-container{
+     padding: 1rem;
+  }
+
+  .products-container h2{
+     font-size: 25px;
   }
 }
 

@@ -298,6 +298,20 @@
   }
 }
 
+@media (max-width: 390px) {
+  header {
+    padding: 1rem;
+  }
+
+  .menu-container {
+    padding: 1rem;
+  }
+
+  .menu-container.active {
+    height: 35vh;
+  }
+}
+
 @media (max-width: 320px) {
   .menu-container.active {
     height: 40vh;

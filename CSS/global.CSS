@@ -200,7 +200,7 @@ a {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 2rem;
+  padding: 1rem;
   background: var(--color-2);
   border-radius: 500px 0px 500px 0px;
   box-shadow: inset 10px 5px 50px 10px #00000021;
@@ -219,7 +219,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 5rem;
+  padding: 4rem;
 }
 
 .card-services {

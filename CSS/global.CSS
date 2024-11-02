@@ -266,6 +266,17 @@ a {
   padding: 2rem;
 }
 
+.cards-container,
+.slick-dots {
+  position: static;
+  bottom: -25px;
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+}
 
 .cards-products,
 .slick-slide {
@@ -281,6 +292,7 @@ a {
 .cards-products img {
   width: 100%;
   height: 250px;
+  object-fit: cover;
   border-radius: 10px 10px 0px 0px;
   margin-bottom: 10px;
 }

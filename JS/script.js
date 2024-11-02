@@ -3,6 +3,7 @@ $(".cards-container").slick({
   slidesToScroll: 1,
   infinite: true,
   dots: true,
+  autoplay: 2000,
   arrows: false,
   responsive: [
     {
@@ -10,6 +11,7 @@ $(".cards-container").slick({
       settings: {
         slidesToShow: 2,
         slidesToScroll: 2,
+        
       },
     },
     {
@@ -17,6 +19,15 @@ $(".cards-container").slick({
       settings: {
         slidesToShow: 1,
         slidesToScroll: 1,
+        
+      },
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        
       },
     },
   ],

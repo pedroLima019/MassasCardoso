@@ -3,7 +3,7 @@ $(".cards-container").slick({
   slidesToScroll: 1,
   infinite: true,
   dots: true,
-  autoplay: 2000,
+  autoplay: 3000,
   arrows: false,
   responsive: [
     {
@@ -44,4 +44,24 @@ document.addEventListener("DOMContentLoaded", function () {
       menuContainer.classList.remove("active");
     });
   });
+});
+
+const header = document.querySelector("header");
+
+window.addEventListener("scroll", function () {
+  if (window.innerWidth > 768) {
+    if (window.scrollY > 50) {
+      header.classList.add("scrolled");
+    } else {
+      header.classList.remove("scrolled");
+    }
+  } else {
+    header.classList.remove("scrolled");
+  }
+});
+
+window.addEventListener("resize", function () {
+  if (window.innerWidth <= 768) {
+    header.classList.remove("scrolled");
+  }
 });

@@ -24,6 +24,7 @@
 @media (max-width: 768px) {
   header {
     padding: 3rem;
+    position: static;
   }
 
   .menu-container {
@@ -32,7 +33,7 @@
     align-items: center;
     justify-content: center;
     position: absolute;
-    padding: 3rem;
+    padding: 2rem;
     top: 80px;
     right: 0;
     background-color: var(--color-1);
@@ -49,10 +50,12 @@
     width: 100%;
   }
 
-  .menu-container li a {
-    font-size: 20px;
-    transition: color 0.3s;
-    color: var(--color-4);
+  .menu-container li:hover {
+    border-bottom: 1px solid #03813a77;
+  }
+
+  .menu-container li a::after {
+    display: none;
   }
 
   .menu-container li a:hover {
@@ -67,9 +70,8 @@
   }
 
   .menu-container.active {
-    height: 50vh;
     opacity: 1;
-    transform: translateY(0);
+    transform: translateY(1);
   }
 
   .home-container {
@@ -150,16 +152,12 @@
   }
 
   .menu-container {
-    padding: 2rem;
+    padding: 1rem;
   }
 
   .menu-container li {
-    padding: 0.6rem 0;
+    padding: 0.5rem 0;
     width: 100%;
-  }
-
-  .menu-container.active {
-    height: 45vh;
   }
 
   .menu-container li a {
@@ -259,10 +257,6 @@
     padding: 1rem;
   }
 
-  .menu-container li {
-    padding: 0.5rem 0;
-    width: 100%;
-  }
   .home-text {
     padding: 1rem;
   }
@@ -300,22 +294,15 @@
 
 @media (max-width: 390px) {
   header {
-    padding: 1rem;
+    padding: 2rem;
   }
 
   .menu-container {
     padding: 1rem;
   }
-
-  .menu-container.active {
-    height: 35vh;
-  }
 }
 
 @media (max-width: 320px) {
-  .menu-container.active {
-    height: 40vh;
-  }
 
   .about-text h1 {
     font-size: 25px;

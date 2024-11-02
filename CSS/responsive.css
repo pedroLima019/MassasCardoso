@@ -22,15 +22,56 @@
 }
 
 @media (max-width: 768px) {
+  header {
+    padding: 3rem;
+  }
+
   .menu-container {
-    display: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    padding: 3rem;
+    top: 80px;
+    right: 0;
+    background-color: var(--color-1);
+    width: 100%;
+    opacity: 0;
+    overflow: hidden;
+    transform: translateY(-10px);
+    transition: max-height 0.5s ease, opacity 0.5s ease, transform 0.5s ease;
+    z-index: 1000;
+  }
+
+  .menu-container li {
+    padding: 1rem 0;
+    width: 100%;
+  }
+
+  .menu-container li a {
+    font-size: 20px;
+    transition: color 0.3s;
+    color: var(--color-4);
+  }
+
+  .menu-container li a:hover {
+    color: var(--color-2);
   }
 
   .navbar-container .menu-icon {
     cursor: pointer;
-    display: inline;
+    display: block;
     font-size: 2.5rem;
+    z-index: 1100;
   }
+
+    .menu-container.active {
+    height: 50vh;
+    opacity: 1;
+    transform: translateY(0);
+  }
+
   .home-container {
     padding: 0rem;
   }
@@ -67,7 +108,7 @@
 
   .card-content {
     flex-direction: column;
-    padding: 2rem;
+    padding: 1rem;
   }
 
   .card-services {
@@ -224,7 +265,7 @@
   }
 
   .products-container h2 {
-     font-size: 24px;
+    font-size: 24px;
   }
 }
 

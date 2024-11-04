@@ -24,7 +24,6 @@
 @media (max-width: 768px) {
   header {
     padding: 3rem;
-    
   }
 
   .menu-container {
@@ -145,9 +144,43 @@
     margin: 0px 10px;
   }
 
-  .bg-container-1 p{
-     text-align: center;
-     font-size: 25px;
+  .bg-container-1 p {
+    text-align: center;
+    font-size: 25px;
+  }
+
+  .scoop-container {
+    flex-direction: column;
+  }
+
+  .scoop-img {
+    width: 100%;
+    padding: 0rem;
+    margin: 0rem;
+  }
+
+  .scoop-text {
+    width: 100%;
+    text-align: center;
+  }
+
+  .whatsapp-container {
+    flex-direction: column-reverse;
+  }
+
+  .whatsapp-img {
+    width: 100%;
+    padding: 0rem;
+    margin: 0rem;
+  }
+
+  .whatsapp-text {
+    width: 100%;
+    text-align: center;
+  }
+
+  .whatsapp-text a {
+     font-size: 15px;
   }
 }
 
@@ -252,8 +285,40 @@
     font-size: 28px;
   }
 
-  .bg-container-1 p{
-     font-size: 16px;
+  .bg-container-1 p {
+    font-size: 16px;
+  }
+
+  .scoop-text {
+    padding: 0rem;
+  }
+
+  .scoop-text h2 {
+    font-size: 25px;
+  }
+
+  .scoop-text p {
+    font-size: 12px;
+  }
+
+  .scoop-text a {
+    font-size: 12px;
+  }
+
+  .whatsapp-text {
+    padding: 0rem;
+  }
+
+  .whatsapp-text h2 {
+    font-size: 25px;
+  }
+
+  .whatsapp-text p {
+    font-size: 12px;
+  }
+
+  .whatsapp-text a {
+    font-size: 12px;
   }
 }
 
@@ -300,10 +365,13 @@
     font-size: 24px;
   }
 
-  
-  .bg-container-1 p{
+  .bg-container-1 p {
     font-size: 15px;
- }
+  }
+
+  .contact-container {
+    padding: 0;
+  }
 }
 
 @media (max-width: 390px) {
@@ -317,7 +385,6 @@
 }
 
 @media (max-width: 320px) {
-
   .about-text h1 {
     font-size: 25px;
   }
@@ -357,8 +424,29 @@
     margin-bottom: 10px;
     font-size: 10px;
   }
-  
+
   .bg-container-1 {
     padding: 1rem;
- }
+  }
+
+  .contact-container {
+    padding: 1rem;
+  }
+
+  .scoop-container {
+    padding: 1rem;
+    margin: 40px 0px;
+  }
+
+  .scoop-text {
+    padding: 0;
+  }
+
+  .whatsapp-container {
+    padding: 1rem;
+  }
+
+  .whatsapp-text {
+    padding: 0;
+  }
 }

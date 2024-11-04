@@ -383,7 +383,6 @@ a {
   width: 100%;
 }
 
-
 .scoop-text {
   width: 50%;
   padding: 2rem;
@@ -401,12 +400,12 @@ a {
 .scoop-text a {
   background: var(--color-3);
   border-radius: 5px;
-  padding: 0.5rem;;
+  padding: 0.5rem;
   transition: 0.3s ease-in-out;
 }
 
 .scoop-text a:hover {
-   background:#fc4817;
+  background: #fc4817;
 }
 
 .whatsapp-container {
@@ -435,15 +434,13 @@ a {
 .whatsapp-text a {
   background: var(--color-2);
   padding: 0.5rem;
-  font-size: 13px;
   border-radius: 5px;
   transition: 0.3s ease-in-out;
 }
 
-.whatsapp-text a:hover{
-   background: #04a148;
+.whatsapp-text a:hover {
+  background: #04a148;
 }
-
 
 .whatsapp-img {
   display: flex;
@@ -455,5 +452,46 @@ a {
 }
 
 .whatsapp-img img {
-   width: 100%;
+  width: 100%;
+}
+
+.location-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.location-map {
+  width: 50%;
+  padding: 2rem;
+}
+
+.location-map iframe {
+   border-radius: 5px;
+}
+
+.location-text {
+  width: 50%;
+  padding: 2rem;
+}
+
+.location-text h2 {
+   font-size: 40px;
+   color: var(--color-2);
+}
+
+.location-text p {
+   margin: 25px 0px;
+}
+
+.location-text a {
+   background: var(--color-2);
+   padding: 0.5rem;
+   border-radius: 5px;
+   transition: 0.3s ease-in-out
+}
+
+.location-text a:hover {
+  background: #04a148;
 }

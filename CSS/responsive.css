@@ -180,7 +180,21 @@
   }
 
   .whatsapp-text a {
-     font-size: 15px;
+    font-size: 15px;
+  }
+
+  .location-container {
+    flex-direction: column-reverse;
+  }
+
+  .location-map {
+    width: 100%;
+    padding: 4rem;
+  }
+
+  .location-text {
+    width: 100%;
+    text-align: center;
   }
 }
 
@@ -319,6 +333,22 @@
 
   .whatsapp-text a {
     font-size: 12px;
+  }
+
+  .location-container {
+     padding: 0rem;
+  }
+
+  .location-map {
+     padding: 1rem;
+  }
+
+  .location-text h2{
+     font-size: 25px;
+  }
+
+  .location-text p {
+     font-size: 13px;
   }
 }
 

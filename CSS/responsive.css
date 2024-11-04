@@ -196,6 +196,24 @@
     width: 100%;
     text-align: center;
   }
+
+  footer {
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem;
+  }
+
+  .social-media {
+    margin: 20px 0;
+  }
+
+  .endereco{
+     text-align: center;
+  }
+
+  .endereco p {
+     font-size: 12px;
+  }
 }
 
 @media (max-width: 425px) {
@@ -336,19 +354,19 @@
   }
 
   .location-container {
-     padding: 0rem;
+    padding: 0rem;
   }
 
   .location-map {
-     padding: 1rem;
+    padding: 1rem;
   }
 
-  .location-text h2{
-     font-size: 25px;
+  .location-text h2 {
+    font-size: 25px;
   }
 
   .location-text p {
-     font-size: 13px;
+    font-size: 13px;
   }
 }
 

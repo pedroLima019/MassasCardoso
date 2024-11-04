@@ -38,8 +38,8 @@ body {
   background: var(--color-1);
 }
 
-html{
-   scroll-behavior:smooth;
+html {
+  scroll-behavior: smooth;
 }
 
 header {
@@ -474,8 +474,8 @@ a {
 }
 
 .location-map iframe {
-   border-radius: 5px;
-   width: 100%;
+  border-radius: 5px;
+  width: 100%;
 }
 
 .location-text {
@@ -484,21 +484,52 @@ a {
 }
 
 .location-text h2 {
-   font-size: 40px;
-   color: var(--color-2);
+  font-size: 40px;
+  color: var(--color-2);
 }
 
 .location-text p {
-   margin: 25px 0px;
+  margin: 25px 0px;
 }
 
 .location-text a {
-   background: var(--color-2);
-   padding: 0.5rem;
-   border-radius: 5px;
-   transition: 0.3s ease-in-out
+  background: var(--color-2);
+  padding: 0.5rem;
+  border-radius: 5px;
+  transition: 0.3s ease-in-out;
 }
 
 .location-text a:hover {
   background: #04a148;
+}
+
+footer {
+  width: 100%;
+  padding: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.logo img {
+   width: 100%;
+}
+
+.social-media{
+   text-align: center;
+}
+
+
+.social-media img{
+   width: 30px;
+   margin: 8px;
+}
+
+.endereco {
+   width: 300px;
+}
+
+.endereco p {
+   font-size: 15px;
 }

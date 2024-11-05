@@ -207,12 +207,12 @@
     margin: 20px 0;
   }
 
-  .endereco{
-     text-align: center;
+  .endereco {
+    text-align: center;
   }
 
   .endereco p {
-     font-size: 12px;
+    font-size: 12px;
   }
 }
 
@@ -496,5 +496,10 @@
 
   .whatsapp-text {
     padding: 0;
+  }
+
+  .social-media img {
+    width: 25px;
+    margin: 8px;
   }
 }

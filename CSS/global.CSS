@@ -121,7 +121,7 @@ main {
 .home-container {
   width: 100%;
   height: 45rem;
-  background-image: url(/assets/img/backgroundHome.png);
+  background-image: url(/assets/img/Sofioli.jpg);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -211,7 +211,7 @@ a {
   align-items: center;
   justify-content: center;
   padding: 4rem;
-  background: var(--color-3);
+  background: var(--color-2);
   border-radius: 500px 0px 500px 0px;
 }
 
@@ -264,7 +264,7 @@ a {
   padding: 0.3rem;
   border-radius: 5px;
   width: 200px;
-  background: var(--color-2);
+  background: var(--color-3);
 }
 
 .products-container {
@@ -510,25 +510,31 @@ footer {
   justify-content: space-between;
 }
 
-
 .logo img {
-   width: 100%;
+  width: 100%;
 }
 
-.social-media{
-   text-align: center;
+.social-media {
+  text-align: center;
 }
 
+.social-media h3 {
+  font-size: 15px;
+}
 
-.social-media img{
-   width: 30px;
-   margin: 8px;
+.social-media img {
+  width: 25px;
+  margin: 2px 7px;
 }
 
 .endereco {
-   width: 300px;
+  width: 300px;
+}
+
+.endereco h3 {
+  font-size: 15px;
 }
 
 .endereco p {
-   font-size: 15px;
+  font-size: 12px;
 }

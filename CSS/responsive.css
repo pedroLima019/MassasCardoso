@@ -205,9 +205,6 @@
 
 @media (max-width: 430px) {
 
-  .menu-container { 
-    top: 70px;
-  }
 
   .menu-container li {
     padding: 0.5rem 0;

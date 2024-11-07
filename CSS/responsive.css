@@ -216,40 +216,18 @@
   }
 }
 
-@media (max-width: 425px) {
-  header {
-    padding: 2rem;
-  }
-
-  .menu-container {
-    padding: 1rem;
-  }
-
-  .menu-container li {
-    padding: 0.5rem 0;
-    width: 100%;
-  }
-
-  .menu-container li a {
-    font-size: 15px;
-  }
-
-  .navbar-container .menu-icon {
-    cursor: pointer;
-    display: inline;
-    font-size: 2rem;
-  }
-
+@media (max-width: 430px) {
   .home-text h1 {
     font-size: 30px;
   }
 
   .home-text p {
-    font-size: 14px;
-    padding: 1.6rem;
+    font-size: 13px;
+    padding: 1rem;
   }
 
   .home-text button {
+    padding: 8px;
     width: 200px;
   }
 
@@ -257,96 +235,88 @@
   a {
     font-size: 12px;
   }
+
   .about-container {
-    padding: 1rem;
+    padding: 2rem;
   }
-  .about-text {
-    padding: 1rem;
-  }
+
   .about-text h1 {
     font-size: 30px;
+    line-height: 35px;
   }
 
   .about-text p {
-    font-size: 14px;
+    font-size: 12px;
+    text-align: justify;
   }
 
   .services-container {
-    padding: 1rem;
+    padding: 1.5rem;
   }
+
   .services-container h2 {
     font-size: 30px;
   }
 
-  .card-container {
-    padding: 0;
-  }
-
   .card-services {
-    width: 100%;
-    padding: 2rem;
+    margin: 1rem;
+    padding: 1.5rem;
   }
 
   .card-services h3 {
     font-size: 20px;
   }
-
   .card-services p {
     font-size: 12px;
-    margin: 12px 0;
   }
 
   .card-services a {
     font-size: 12px;
   }
-
-  .bg-container {
-    width: 100%;
-    height: 100px;
-  }
-
-  .bg-container p {
-    font-size: 16px;
-  }
-
   .products-container {
-    padding: 1rem;
+    padding: 1.5rem;
   }
-
   .products-container h2 {
-    font-size: 28px;
+    font-size: 30px;
+    line-height: 35px;
   }
 
-  .bg-container-1 p {
-    font-size: 16px;
+  .scoop-container {
+    padding: 0;
+    margin-bottom: 5rem;
   }
 
   .scoop-text {
-    padding: 0rem;
+    padding: 0;
   }
 
   .scoop-text h2 {
-    font-size: 25px;
+    font-size: 30px;
+    line-height: 35px;
   }
 
   .scoop-text p {
     font-size: 12px;
+    margin: 15px 0;
   }
 
   .scoop-text a {
     font-size: 12px;
   }
 
+  .whatsapp-container {
+    padding: 0;
+  }
   .whatsapp-text {
-    padding: 0rem;
+    margin: 1rem;
+    padding: 1rem;
   }
-
   .whatsapp-text h2 {
-    font-size: 25px;
+    font-size: 30px;
   }
-
   .whatsapp-text p {
     font-size: 12px;
+    margin: 15px 0;
   }
 
   .whatsapp-text a {
@@ -354,19 +324,25 @@
   }
 
   .location-container {
-    padding: 0rem;
+    padding: 0;
+  }
+
+  .location-text {
+    padding: 1rem;
+    margin-bottom: 30px;
+  }
+
+  .location-text h2 {
+    font-size: 30px;
+  }
+
+  .location-text p {
+    margin: 15px 0px;
+    font-size: 12px;
   }
 
   .location-map {
     padding: 1rem;
-  }
-
-  .location-text h2 {
-    font-size: 25px;
-  }
-
-  .location-text p {
-    font-size: 13px;
   }
 }
 

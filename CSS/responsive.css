@@ -442,6 +442,14 @@
 }
 
 @media (max-width: 320px) {
+  header {
+    padding: 25px;
+  }
+
+  .menu-container {
+    padding: 10px;
+  }
+
   .about-text h1 {
     font-size: 25px;
   }

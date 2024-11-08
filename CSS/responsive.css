@@ -88,7 +88,8 @@
   }
 
   .about-text p {
-    font-size: 18px;
+    font-size: 15px;
+    text-align: justify;
   }
 
   .about-image {
@@ -103,15 +104,23 @@
     width: 100%;
   }
 
+  .description {
+    width: 100%;
+  }
+
+  .description p {
+    font-size: 15px;
+  }
+
   .card-content {
     flex-direction: column;
     padding: 1rem;
   }
 
   .card-services {
-    width: 100%;
-    margin: 3rem;
-    padding: 3rem;
+    width: 70%;
+    margin: 2rem;
+    padding: 1rem;
   }
 
   .card-services h3 {
@@ -190,11 +199,12 @@
     padding: 2rem;
   }
 
-  .social-media {
-    margin: 20px 0;
+  .footer-content {
+    flex-direction: column;
   }
 
   .endereco {
+    margin: 15px 0;
     text-align: center;
   }
 
@@ -204,8 +214,6 @@
 }
 
 @media (max-width: 430px) {
-
-
   .menu-container li {
     padding: 0.5rem 0;
     width: 100%;
@@ -252,9 +260,14 @@
     font-size: 30px;
   }
 
+  .description p {
+    font-size: 12px;
+  }
+
   .card-services {
-    margin: 1rem;
-    padding: 1.5rem;
+    width: 80%;
+    margin: 2rem;
+    padding: 2rem;
   }
 
   .card-services h3 {
@@ -262,13 +275,16 @@
   }
   .card-services p {
     font-size: 12px;
+    margin: 12px 0;
   }
 
   .card-services a {
     font-size: 12px;
+    width: 150px;
   }
+
   .products-container {
-    padding: 1.5rem;
+    padding: 1rem;
   }
   .products-container h2 {
     font-size: 30px;
@@ -338,6 +354,18 @@
   .location-map {
     padding: 1rem;
   }
+
+  .whatsapp-float {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    bottom: 20px;
+  }
+
+  .whatsapp-float img {
+    width: 25px;
+    height: 25px;
+  }
 }
 
 @media (max-width: 375px) {
@@ -370,12 +398,12 @@
     font-size: 25px;
   }
 
-  .card-content {
-    padding: 0rem;
+  .description p {
+    font-size: 12px;
   }
 
-  .card-services {
-    margin: 1rem;
+  .card-content {
+    padding: 0rem;
   }
 
   .products-container h2 {
@@ -430,9 +458,13 @@
     padding: 0;
   }
 
+  .description p {
+    font-size: 10px;
+  }
+
   .card-services {
-    margin: 1rem;
-    padding: 1rem;
+    width: 100%;
+    padding: 0;
   }
 
   .card-services p {

@@ -119,6 +119,7 @@ main {
 }
 
 .home-container {
+
   width: 100%;
   height: 45rem;
   background-image: url(/assets/img/Massa.png);
@@ -133,6 +134,7 @@ main {
 }
 
 .home-text {
+  visibility: hidden;
   width: 100%;
   text-align: center;
   padding: 5rem;
@@ -621,3 +623,4 @@ footer {
   width: 700px;
   margin-top: 20px;
 }
+

@@ -45,3 +45,22 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 });
+
+window.sr = ScrollReveal({
+  reset: true,
+});
+
+sr.reveal(".home-text", { duration: 3000 });
+sr.reveal(".about-text", { duration: 3000 });
+sr.reveal(".about-image", { duration: 3000 });
+sr.reveal(".services-container", { duration: 3000 });
+sr.reveal(".card-services", {duration: 3000})
+sr.reveal(".products-container", {duration: 3000})
+sr.reveal(".scoop-img", {duration: 3000})
+sr.reveal(".scoop-text", {duration: 3000})
+sr.reveal(".whatsapp-text", {duration: 3000})
+sr.reveal(".whatsapp-img", {duration: 3000})
+sr.reveal(".location-map", {duration: 3000})
+sr.reveal(".location-text", {duration: 3000})
+
+

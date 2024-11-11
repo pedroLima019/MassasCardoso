@@ -366,6 +366,18 @@
     width: 25px;
     height: 25px;
   }
+
+  .cardapio-main {
+    padding: 3rem;
+  }
+
+  .cardapio-content {
+    padding: 2rem;
+  }
+
+  .cardapio-content img {
+    width: 100%;
+  }
 }
 
 @media (max-width: 375px) {
@@ -428,6 +440,18 @@
   .location-text h2 {
     font-size: 25px;
     line-height: 32px;
+  }
+
+  .cardapio-main {
+    padding: 2.5rem;
+  }
+
+  .cardapio-content {
+    padding: 1.5rem;
+  }
+
+  .cardapio-content img {
+    width: 100%;
   }
 }
 

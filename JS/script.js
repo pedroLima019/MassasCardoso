@@ -62,6 +62,5 @@ sr.reveal(".whatsapp-text", {duration: 2000})
 sr.reveal(".whatsapp-img", {duration: 2000})
 sr.reveal(".location-map", {duration: 2000})
 sr.reveal(".location-text", {duration: 2000})
-sr.reveal(".cardapio-content", {duration: 2000})
 
 
